@@ -21,7 +21,7 @@ jobs:
       - name: Building the binary
         run: |
           mkdir -p bin
-          go build . -o ./bin
+          go build -o ./bin
 
 
       - name: Upload artifact
